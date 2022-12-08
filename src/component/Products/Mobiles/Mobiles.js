@@ -97,13 +97,13 @@ const Mobiles = ({ mobile }) => {
 
                         </div>
                         <div className="card-actions flex  justify-between">
-                            <Link to={`/catagori/${name}/${_id}`} className="md:btn md:btn-primary  md:text-lg font-bold bg-blue-600 p-1 px-5 rounded  text-white text-center ">View</Link>
-                            <button onClick={handleWhitestList} className="md:btn md:btn-primary text-lg font-bold bg-blue-600 p-1 rounded   text-white text-center ">whitlist-{'>'}</button>
+                            <Link to={`/catagori/${name}/${_id}`} className="md:btn md:btn-primary  md:text-lg font-bold bg-pink-500 p-1 px-5 rounded  text-white text-center ">View</Link>
+                            <button onClick={handleWhitestList} className="md:btn md:btn-primary text-lg font-bold bg-pink-500 p-1 rounded   text-white text-center ">whitlist-{'>'}</button>
 
 
                             {stock === true ? 
 
-                                <label htmlFor="my-modal" className="md:btn md:btn-primary text-lg font-bold bg-blue-600 p-1 rounded  text-white text-center">Booking</label>:
+                                <label htmlFor="my-modal" className="md:btn md:btn-primary text-lg font-bold bg-pink-500 p-1 rounded  text-white text-center">Booking</label>:
                                 <button  disabled className="text-lg font-bold bg-gray-700 p-1 rounded  text-white text-center">Soldout</button>
 
                            }

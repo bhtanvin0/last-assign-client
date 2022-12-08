@@ -1,5 +1,5 @@
 import React, { useContext } from 'react';
-import { FcShop, IconName } from "react-icons/fc";
+import { FcTouchscreenSmartphone, IconName } from "react-icons/fc";
 import { Link, useNavigate } from 'react-router-dom';
 import { AuthContex } from '../../Context/Context';
 import { AiOutlineArrowRight } from "react-icons/ai";
@@ -38,7 +38,7 @@ const Header = () => {
                             }
                         </ul>
                     </div>
-                    <Link to='/' className="btn btn-ghost normal-case font-bold text-3xl"><span><FcShop className='text-5xl'></FcShop></span> TrustShop</Link>
+                    <Link to='/' className="btn btn-ghost normal-case font-bold text-3xl"><span><FcTouchscreenSmartphone className='text-5xl'></FcTouchscreenSmartphone></span> BUYPHONE</Link>
                 </div>
                 <div className="navbar-end hidden lg:flex">
                     <ul className="menu menu-horizontal p-0">
@@ -51,7 +51,7 @@ const Header = () => {
 
 
                 <div className="dropdown dropdown-bottom dropdown-end text-black">
-                    <label tabIndex={1} className=""><AiOutlineShoppingCart className='text-3xl text-indigo-700'></AiOutlineShoppingCart></label>
+                    <label tabIndex={1} className=""><AiOutlineShoppingCart className='text-3xl text-orange-400'></AiOutlineShoppingCart></label>
                     <ul tabIndex={1} className="dropdown-content menu p-2 shadow rounded-box w-52">
                         <li><Link className='bg-sky-800 text-white mt-2 rounded-lg' to='/user/whiteList'>WhiteList</Link></li>
                         <li><Link className='bg-sky-800 text-white mt-2 rounded-lg' to='/user/booking'>All Booking</Link></li>
